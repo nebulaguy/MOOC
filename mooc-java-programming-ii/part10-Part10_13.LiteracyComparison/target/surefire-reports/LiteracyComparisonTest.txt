@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: LiteracyComparisonTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.346 s <<< FAILURE! - in LiteracyComparisonTest
+literacyComparisonTest(LiteracyComparisonTest)  Time elapsed: 0.094 s  <<< FAILURE!
+java.lang.AssertionError: 
+It was expected that row 1 would be "Niger (2015), female, 11.01572".
+Now the row 1 was "Niger (2015), female, 11.01572036743164"
+	at LiteracyComparisonTest.literacyComparisonTest(LiteracyComparisonTest.java:26)
+

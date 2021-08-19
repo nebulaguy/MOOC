@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="LiteracyComparisonTest" time="0.346" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/vrishank/NetBeansProjects/mooc-java-programming-ii/part10-Part10_13.LiteracyComparison/target/test-classes:/Users/vrishank/NetBeansProjects/mooc-java-programming-ii/part10-Part10_13.LiteracyComparison/target/classes:/Users/vrishank/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/vrishank/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/vrishank/.m2/repository/fi/helsinki/cs/tmc/edu-test-utils/0.4.2/edu-test-utils-0.4.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/vrishank/NetBeansProjects/mooc-java-programming-ii/part10-Part10_13.LiteracyComparison/target/surefire/surefirebooter15542000642153499095.jar /Users/vrishank/NetBeansProjects/mooc-java-programming-ii/part10-Part10_13.LiteracyComparison/target/surefire 2021-07-31T15-48-07_733-jvmRun1 surefire1131761339920170236tmp surefire_010354903612488737352tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="LiteracyComparisonTest"/>
+    <property name="surefire.test.class.path" value="/Users/vrishank/NetBeansProjects/mooc-java-programming-ii/part10-Part10_13.LiteracyComparison/target/test-classes:/Users/vrishank/NetBeansProjects/mooc-java-programming-ii/part10-Part10_13.LiteracyComparison/target/classes:/Users/vrishank/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/vrishank/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/vrishank/.m2/repository/fi/helsinki/cs/tmc/edu-test-utils/0.4.2/edu-test-utils-0.4.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/vrishank"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-04-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/vrishank/NetBeansProjects/mooc-java-programming-ii/part10-Part10_13.LiteracyComparison"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/vrishank/NetBeansProjects/mooc-java-programming-ii/part10-Part10_13.LiteracyComparison/target/surefire/surefirebooter15542000642153499095.jar"/>
+    <property name="jdk.net.URLClassPath.disableClassPathURLCheck" value="true"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="12.0.1+12"/>
+    <property name="user.name" value="vrishank"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/vrishank/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/gs/79y39r2j64x6yl38stsbx9jh0000gn/T/"/>
+    <property name="java.version" value="12.0.1"/>
+    <property name="user.dir" value="/Users/vrishank/NetBeansProjects/mooc-java-programming-ii/part10-Part10_13.LiteracyComparison"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/vrishank/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="literacyComparisonTest" classname="LiteracyComparisonTest" time="0.094">
+    <failure message="It was expected that row 1 would be &quot;Niger (2015), female, 11.01572&quot;.&#10;Now the row 1 was &quot;Niger (2015), female, 11.01572036743164&quot;" type="java.lang.AssertionError">java.lang.AssertionError: 
+It was expected that row 1 would be "Niger (2015), female, 11.01572".
+Now the row 1 was "Niger (2015), female, 11.01572036743164"
+	at LiteracyComparisonTest.literacyComparisonTest(LiteracyComparisonTest.java:26)
+</failure>
+  </testcase>
+</testsuite>
